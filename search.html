@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!--  -->
+    <!-- styles  -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/fontawesome-free-7.1.0-web/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Wellness Center</title>
+</head>
+<body class="noto-serif ">
+
+<nav class="relative">
+    <div class="   px-20 flex items-center justify-between"> 
+        <div class="    w-40 h-20 "> 
+           <a href="/"> <img src="image/logo-black.png" class="w-full py-5" alt=""></a>
+        </div>
+        <div class="    flex gap-5">
+            <ul class="navMenu  max-md:hidden max-md:flex-col max-md:absolute max-md:left-50 max-md:top-20 max-md:text-white  max-md:z-12
+               flex items-center justify-center gap-5 w-max">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="page realtive group">
+                    <span>page</span><i class="fa-solid fa-chevron-down"></i> 
+                      <ul class=" nav-drop max-md:bg-black/90  absolute top-12 hidden group-hover:flex  flex-col bg-white shadow-lg py-5 px-5">
+                       <li> <a href="" class="max-md:text-sm w-full  hover:border-b hover:border-gray-200 hover:shadow-lg px-5">About Us</a></li>
+                       <li> <a href="" class="max-md:text-sm w-full  hover:border-b hover:border-gray-200 hover:shadow-lg px-5">Our Team</a></li>
+                       <li> <a href="" class="max-md:text-sm w-full  hover:border-b hover:border-gray-200 hover:shadow-lg px-5">FAQ</a></li>
+                      </ul>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+
+            <div class="max-lg:block  hidden  text-2xl cursor-pointer hover:text-green-500"  ><i class="fa-solid fa-bars"></i></div>
+            <div class=" flex items-center justify-center cursor-pointer" onclick=""><i class="fa-solid fa-magnifying-glass"></i></div>
+        </div>
+    </div>
+        <div class="sidebar hidden  bg-black/90 w-100 min-h-screen border-r border-white absolute left-0 top-0 z-10"> 
+            <i class="fa-solid fa-xmark text-white ml-90 my-5 text-2xl cursor-pointer"></i>
+        </div>
+
+</nav>    
+
+<!-- content -->
+
+<div class="flex flex-col items-center justify-center  mt-30">
+    <h1 class="text-4xl font-bold text-blue-800">Search </h1>
+    <h1 class="text-4xl font-bold text-blue-800 mb-5">Results</h1>
+    <input type="text" placeholder="Search" class="border border-blue-400 p-3 w-1/2 rounded">
+</div>
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
