@@ -35,7 +35,7 @@ clos.addEventListener('click' , ()=>{
 })
 
 window.addEventListener('resize', ()=>{
-  if(window.innerWidth > 768){
+  if(window.innerWidth > 1024){
      navMenu.style.display = "flex"
   }
 
